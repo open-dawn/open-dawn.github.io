@@ -1,8 +1,20 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>DAWN</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 13 Nov 2026 22:40:13 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink sparkle:edSignature="GN3/z7PeOTCJU6E2k0Zr9Mc9muTCMkCuxcSvHbLqyMYXavK0tzWk3sJVARMMGDghSSYclTdOGXdljQsr91SDAA==" sparkle:length="9133">https://update.opendawn.app/releases/DAWN-1.1.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/open-dawn/dawn/releases/download/v1.1.0/DAWN-1.1.0.dmg" length="6439595" type="application/octet-stream" sparkle:edSignature="WpvOFyS75pWLhlBWgP5w+UQPC0kGf2ZcJ+/2yL5ZC4z9lPdf5jVAFgXVhmUjthhwBAacngjqAJlJdl0R9fdBCA=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Mon, 09 Nov 2026 14:20:46 +0000</pubDate>
@@ -11,10 +23,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <sparkle:releaseNotesLink sparkle:edSignature="D/1MQ+MC//ItRKjzze2moiqIeUVuF0eZuHFF6iHhhwV6ApZGDhPLNuc7c+IfFIDc9G1yuciE5KnTTy07UFy9Bw==" sparkle:length="25757">https://update.opendawn.app/releases/DAWN-1.0.0.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/open-dawn/dawn/releases/download/v1.0.0/DAWN-1.0.0.dmg" length="5869041" type="application/octet-stream" sparkle:edSignature="y3n7B8XCtBoOa3ldihO/xwi8hzns6Ma1yo1GGrSUmmg8lDiOnWpgArl9pwp52CAdEH8xZFxYTstVLKh6A37vBg=="></enclosure>
+            <enclosure url="https://github.com/open-dawn/dawn/releases/download/v1.0.0/DAWN-1.0.0.dmg" length="5869041" type="application/octet-stream" sparkle:edSignature="y3n7B8XCtBoOa3ldihO/xwi8hzns6Ma1yo1GGrSUmmg8lDiOnWpgArl9pwp52CAdEH8xZFxYTstVLKh6A37vBg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: GR9O4C3DRC6dUC/8Mot4TveA0N7HHS6V7Lvdn1U59wR0WjAzg0T7+Wt5Pf209sDb1p739D59rUkHuTV+d+fpAw==
-length: 1361
+</rss>
+<!-- sparkle-signatures:
+edSignature: UGB9kPzcBOOfZKySRVzqD8d7kk6rB/QwTqwTgMJ62Hsu4xNfTzGZ95YL/z9YwSTABxyn8quq0mzC5zg+vM9NAg==
+length: 2277
 -->
