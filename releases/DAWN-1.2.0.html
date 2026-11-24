@@ -1,0 +1,66 @@
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires updating signatures in appcasts that reference this file! This will involve re-running generate_appcast or sign_update.
+-->
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>DAWN 1.2.0</title></head>
+<body><main>
+<p dir="auto">DAWN 1.2.0 introduces a new visual identity, refreshes how you create and manage workspaces, and adds automatic update checks with optional analytics.</p>
+<h2 dir="auto">Highlights</h2>
+<h3 dir="auto">Redesigned DAWN</h3>
+<ul dir="auto">
+<li>New app icon, typography, and colors across the app.</li>
+<li>Redesigned sidebar, workspace details, Settings, About screen, and menu-bar interface.</li>
+<li>The menu-bar icon changes when a workspace is active.</li>
+</ul>
+<h3 dir="auto">Workspace management</h3>
+<ul dir="auto">
+<li>Contexts are now called workspaces throughout DAWN.</li>
+<li>The workspace creation flow has redesigned steps for choosing a name and icon, adding apps, setting opening behavior, and reviewing the workspace.</li>
+<li>Saved contexts migrate to workspaces when you upgrade.</li>
+<li>If you use the command-line tool, update scripts that call <code class="notranslate">dawncli context</code> to use <code class="notranslate">dawncli workspace</code>. Run <code class="notranslate">dawncli workspace --help</code> to see the available commands.</li>
+</ul>
+<h3 dir="auto">Updates and analytics</h3>
+<ul dir="auto">
+<li>DAWN can check for updates automatically. Installing an update still requires your action.</li>
+<li>DAWN asks whether you want to share update-check analytics. If you opt in, update checks include a generated installation ID, the DAWN and macOS versions, and whether you checked manually or on a schedule. You can change your choice in Settings.</li>
+</ul>
+<h2 dir="auto">Requirements</h2>
+<ul dir="auto">
+<li>Apple Silicon Mac</li>
+<li>macOS 15.0 or later</li>
+<li>Accessibility permission to manage apps and windows</li>
+</ul>
+<h2 dir="auto">Installation</h2>
+<h3 dir="auto">New installation</h3>
+<ol dir="auto">
+<li>Open <code class="notranslate">DAWN-1.2.0.dmg</code> from the release assets.</li>
+<li>Drag DAWN into <strong>Applications</strong>, then open it from there.</li>
+<li>Grant Accessibility permission when prompted. If macOS asks for approval to run the DAWN background item, allow it.</li>
+</ol>
+<h3 dir="auto">Updating from DAWN 1.1.0</h3>
+<p dir="auto">Install 1.2.0 through DAWN’s update interface when it’s offered, or replace the installed app using the new DMG. After DAWN relaunches, check that your saved workspaces are visible and the DAWN Agent is connected.</p>
+<h3 dir="auto">Optional command-line tool</h3>
+<p dir="auto">Use the installation banner in DAWN’s Settings to install <code class="notranslate">dawncli</code>. macOS requires administrator approval to create the command at <code class="notranslate">/usr/local/bin/dawncli</code>.</p>
+<h2 dir="auto">Known limitations</h2>
+<ul dir="auto">
+<li>DAWN supports Apple Silicon only.</li>
+<li><strong>New Instance</strong> may behave differently depending on the app.</li>
+<li>If the background item is disabled, re-enable DAWN under <strong>System Settings → General → Login Items &amp; Extensions</strong> to restore the agent connection.</li>
+<li>Some <code class="notranslate">dawncli</code> commands require the DAWN Agent to be running and Accessibility permission to be granted.</li>
+</ul>
+<h2 dir="auto">Uninstallation</h2>
+<ol dir="auto">
+<li>Quit DAWN, then quit the DAWN Agent from its menu-bar menu.</li>
+<li>If you installed the optional CLI, remove the <code class="notranslate">/usr/local/bin/dawncli</code> symlink.</li>
+<li>If DAWN still appears under <strong>System Settings → General → Login Items &amp; Extensions</strong>, disable its background item.</li>
+<li>Move DAWN from <strong>Applications</strong> to the Trash.</li>
+</ol>
+<h2 dir="auto">Contributors</h2>
+<ul dir="auto">
+<li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/longhirar/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/longhirar">@longhirar</a></li>
+<li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tuildes/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tuildes">@tuildes</a></li>
+<li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/RafaVenetikides/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RafaVenetikides">@RafaVenetikides</a></li>
+</ul>
+<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/open-dawn/dawn/compare/v1.1.0...v1.2.0"><tt>v1.1.0...v1.2.0</tt></a></p>
+</main></body></html>

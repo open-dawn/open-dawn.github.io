@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DAWN</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Tue, 24 Nov 2026 19:11:53 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink sparkle:edSignature="M7px2JoSdXMl/9DqktgUMkfMtMRUI5r5p5vnLB3KSWuK+9lWh/rrnwAardNED7cz0FtkE8PYYr5A1BBpXYfqAQ==" sparkle:length="12774">https://update.opendawn.app/releases/DAWN-1.2.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/open-dawn/dawn/releases/download/v1.2.0/DAWN-1.2.0.dmg" length="7035192" type="application/octet-stream" sparkle:edSignature="pdz0QFTTeQXexWGgC5/lHCBilzeoYuFBMlYNQSdASUGU2fHUPW72dfdn8giBwaQ9Wz/uaBH6ft46k5h5TdULCQ=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Fri, 13 Nov 2026 22:40:13 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -28,6 +38,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: UGB9kPzcBOOfZKySRVzqD8d7kk6rB/QwTqwTgMJ62Hsu4xNfTzGZ95YL/z9YwSTABxyn8quq0mzC5zg+vM9NAg==
-length: 2277
+edSignature: L0YuXxFNWXZomeIvk0DoK+zmh/e1QB7p7gfHosthpe0AmP9eA1jq2r4d6PVtt7kRTg/ix/zOtLShmcVl6WQACQ==
+length: 3202
 -->
